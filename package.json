@@ -16,6 +16,16 @@
   "author": "xavi gimenez",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.12.3"
+    "bcrypt": "^0.8.1",
+    "body-parser": "^1.12.2",
+    "express": "^4.12.3",
+    "jwt-simple": "^0.2.0",
+    "mongoose": "^3.8.25",
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-ng-annotate": "^0.5.2",
+    "gulp-nodemon": "^1.0.5",
+    "gulp-sourcemaps": "^1.5.0",
+    "gulp-uglify": "^1.1.0"
   }
 }

@@ -1,0 +1,11 @@
+<div ng-repeat="llibre in llibres"class="col-xs-12 col-md-3">
+    <div  class="well well-lg">
+        <h4>{{llibre.titol}}</h4>
+        <h5>{{llibre.isbn}}</h5>
+        <div ng-if="currentUser" class="row">
+            <button  ng-click="editar(llibre)" class="btn btn-default btn-flat btn-xs col-xs-5"><i class="mdi-editor-border-color"></i> </button>
+            <button  ng-click="esborrar(llibre)"class="btn btn-default btn-flat btn-xs col-xs-5 col-xs-offset-1"><i class="mdi-navigation-close"></i> </button>
+        </div>
+        
+    </div>
+</div>
